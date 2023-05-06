@@ -58,9 +58,9 @@ body{
     background-color: rgb(228, 141, 19);
 }
 
-#h1_dica{
+.h1_dica{
     color: white;
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
     font-size: 3em;
 }
@@ -104,5 +104,56 @@ h2{
 
 
 }
+.box_promocao {
+    width: 100%;
+    height:auto;
+
+    
+    background-color: rgb(135, 121, 15);
+}
 
 
+
+.h1_promocao{
+
+    color: white;
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.flex_racao{
+
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.racao,.racao_gato,.racao_peixe {
+
+    width: 500px;
+
+}
+
+.sub_box_racao {
+
+    display: flex;
+    width: 600px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box_preco {
+
+    padding: 10px;
+    margin-top: 40px;
+    width: 200px;
+    background-color:bisque;
+    border-radius: 8px;
+}
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
