@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+
+    padding: 15px;
+    background-color: bisque;
+   
+}
+
+#logo {
+    width: 150px;
+}
+
+#flex_box{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#h1_header {
+
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+}
+
+#navegacao {
+
+    padding: 25px;
+    background-color:rgb(71, 112, 246)
+}
+nav{
+    display: flex;
+
+}
+
+ul{
+    margin-left: 100px;
+}
+
+
+a{
+    margin: 10px;
+    font-size: 2em;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.links_cadastro {
+
+    margin-left:auto
+}
+
+body{
+
+    background-color: rgb(228, 141, 19);
+}
+
+#h1_dica{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+.flex_conteudo{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    align-items: center;
+}
+.animais {
+    width: 600px;
+}
+.gato{
+    width: 600px;
+    
+}
+
+.box_texto_dica{
+    width: 600px;
+    padding: 25px;
+    height: 300px;
+    border-radius: 10px;
+    border: solid white 6px;
+    background-color: bisque;
+    box-sizing: border-box;
+    
+   
+}
+p{
+    margin-top: 15px;
+
+}
+
+h2{
+
+    margin-top: 15px;
+
+
+
+}
+
+
