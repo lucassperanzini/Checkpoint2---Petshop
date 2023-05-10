@@ -4,21 +4,20 @@
 }
 
 .cabecalho{
-
     padding: 15px;
     background-color:#FFCFD2;
-  
-   
 }
 
 #logo {
     width: 200px;
+    margin-right: 20px;
 }
 
 #flex_box{
     display: flex;
     align-items: center;
-    
+    justify-content:start;
+    flex-direction: column;
 }
 
 #h1_header {
@@ -28,22 +27,21 @@
 }
 
 #navegacao {
-
+    margin: auto;
     padding: 25px;
     background-color:#009FB7
 }
+
 nav{
     display: flex;
-
 }
 
 ul{
-    margin-left: 100px;
+    margin: auto;
 }
 
-
 a{
-    margin: 10px;
+    margin: 10px 25px;
     font-size: 2em;
     color: aliceblue;
     text-decoration: none;
@@ -66,8 +64,6 @@ body{
     font-size: 3em;
 }
 
-
-
 .flex_animal{
     display: flex;
     justify-content:center;
@@ -75,9 +71,11 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+
 .animais {
     width: 600px;
 }
+
 .gato{
     width: 600px;
     
@@ -92,21 +90,17 @@ body{
     background-color: bisque;
     box-sizing: border-box;
     overflow: auto;
-    
-   
 }
+
 p{
     margin-top: 15px;
 
 }
 
 h2{
-
     margin-top: 15px;
-
-
-
 }
+
 .box_promocao {
     width: 100%;
     height:auto;
@@ -117,12 +111,9 @@ h2{
 
 .box_h1{
     width:auto;
-    
 }
 
-
 .h1_promocao{
-
     color: rgb(0, 0, 0);
     padding-top: 50px;
     text-align: center;
@@ -130,44 +121,33 @@ h2{
 }
 
 .flex_racao{
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 .flex_racao2 {
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
     flex-wrap: wrap;
-
-
 }
-
-
 
 .racao {
-
     max-width: 250px;
-
 }
 
-
 .sub_box_racao {
-
     display: flex;
     width:auto;
     /* width:600px */
     align-items: center;
     flex-direction: column;
-
 }
+
 .imagem_box{
     display: flex;
     flex-direction: column;
@@ -177,28 +157,21 @@ h2{
     margin-top: 30px;
     border-radius: 12px;
     box-shadow: 0px 0px 6px black;
-
-
 }
 
 .box_preco {
-
     padding: 10px;
     margin-top: 40px;
     width: 150px;
     height:100px;
-
     background-color:bisque;
     border-radius: 8px;
 }
-
-
 
 p{
     text-align: center;
     color: rgb(0, 0, 0);
 }
-
 
 .casa_cachorro,.casa_gato,.brinquedo,.coleira,.areia_gato{
 
@@ -206,34 +179,51 @@ p{
 }
 
 .box_acessórios {
-
     display: flex;
     flex-direction: column;
-   align-items: center;
-   margin-top: 120px;
-   justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    justify-content: center;
 }
 
 
 .box_cachorro{
-
     margin-bottom: 100px;
-}
-.h2_animais{
-
-    font-size: 2.5em;
-    text-align: center;
-
+    display: flex;
+    
 }
 
-.box_cachorro,.box_gato {
-
-    background-color: aliceblue;
-    border-radius: 12px;
+.box_gato{
+    margin-bottom: 100px;
+    display:flex;
    
 }
 
+.h2_animais{
+    font-size: 2.5em;
+    text-align: center;
+}
 
+.box_cachorro,.box_gato {
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+.itens_acessórios {
+
+    display: flex;
+
+
+
+
+
+
+}
+
+
+.box_preco_a {
+    background-color: cadetblue;
+    border-radius: 15px;
+}
 
 @media (max-width: 768px) {
     /* Estilos para telas menores que 768px */
@@ -246,4 +236,10 @@ p{
     .links_cadastro {
         display: none;
     }
+}
+
+footer {
+    background-color: #FFCFD2;
+    padding: 20px;
+    margin-top: 10px;
 }
