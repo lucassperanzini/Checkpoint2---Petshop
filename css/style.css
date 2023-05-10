@@ -6,18 +6,19 @@
 .cabecalho{
 
     padding: 15px;
-    background-color: bisque;
+    background-color:#FFCFD2;
+  
    
 }
 
 #logo {
-    width: 150px;
+    width: 200px;
 }
 
 #flex_box{
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    
 }
 
 #h1_header {
@@ -29,7 +30,7 @@
 #navegacao {
 
     padding: 25px;
-    background-color:rgb(71, 112, 246)
+    background-color:#009FB7
 }
 nav{
     display: flex;
@@ -55,7 +56,7 @@ a{
 
 body{
 
-    background-color: rgb(228, 141, 19);
+    background-color: #FED766;
 }
 
 .h1_dica{
@@ -67,11 +68,12 @@ body{
 
 
 
-.flex_conteudo{
+.flex_animal{
     display: flex;
     justify-content:center;
     margin-top: 50px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .animais {
     width: 600px;
@@ -89,6 +91,7 @@ body{
     border: solid white 6px;
     background-color: bisque;
     box-sizing: border-box;
+    overflow: auto;
     
    
 }
@@ -108,15 +111,19 @@ h2{
     width: 100%;
     height:auto;
     padding: 50px;
-    background-color: rgb(135, 121, 15);
+    background-color:#FFCFD2;
     box-sizing: border-box;
 }
 
+.box_h1{
+    width:auto;
+    
+}
 
 
 .h1_promocao{
 
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 50px;
     text-align: center;
     font-size: 3em;
@@ -125,19 +132,32 @@ h2{
 .flex_racao{
 
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
+    flex-wrap: wrap;
     
 }
 
+.flex_racao2 {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+
+}
+
+
+
 .racao {
 
-    width: 300px;
+    max-width: 250px;
 
 }
-.magnus{
-    width: 150px;
-}
+
 
 .sub_box_racao {
 
@@ -146,6 +166,18 @@ h2{
     /* width:600px */
     align-items: center;
     flex-direction: column;
+
+}
+.imagem_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px black;
+
 
 }
 
@@ -165,4 +197,53 @@ h2{
 p{
     text-align: center;
     color: rgb(0, 0, 0);
+}
+
+
+.casa_cachorro,.casa_gato,.brinquedo,.coleira,.areia_gato{
+
+    max-width: 350px;
+}
+
+.box_acessórios {
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-top: 120px;
+   justify-content: center;
+}
+
+
+.box_cachorro{
+
+    margin-bottom: 100px;
+}
+.h2_animais{
+
+    font-size: 2.5em;
+    text-align: center;
+
+}
+
+.box_cachorro,.box_gato {
+
+    background-color: aliceblue;
+    border-radius: 12px;
+   
+}
+
+
+
+@media (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    .cabecalho {
+        flex-direction: column;
+    }
+    #logo {
+        margin-bottom: 1rem;
+    }
+    .links_cadastro {
+        display: none;
+    }
 }
