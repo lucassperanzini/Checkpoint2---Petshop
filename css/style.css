@@ -88,7 +88,6 @@ body {
 
 .gato {
     width: 600px;
-
 }
 
 .box_texto_dica {
@@ -102,12 +101,6 @@ body {
     overflow: auto;
 }
 
-p {
-    margin-top: 15px;
-
-}
-
-
 .box_promocao {
     width: 100%;
     height: auto;
@@ -120,7 +113,7 @@ p {
     width: auto;
 }
 
-.h1_promocao {
+.h1_sections {
     color: rgb(0, 0, 0);
     padding-top: 50px;
     text-align: center;
@@ -143,7 +136,7 @@ p {
     flex-wrap: wrap;
 }
 
-.racao {
+.imgPromos {
     max-width: 250px;
 }
 
@@ -180,10 +173,7 @@ p {
     color: rgb(0, 0, 0);
 }
 
-.casa_cachorro,
-.casa_gato,
-.coleira {
-
+.specImg {
     max-width: 350px;
     padding-top: 57px;
 }
@@ -191,6 +181,7 @@ p {
 .areia_gato {
     max-width: 350px;
     padding-top: 50px;
+
 }
 
 .brinquedo {
@@ -206,6 +197,7 @@ p {
     height: 100px;
     background-color: bisque;
     border-radius: 8px;
+    justify-content: center;
 
 }
 
@@ -221,9 +213,11 @@ p {
     flex-direction: column;
     width: 70%;
     height: 100px;
-    padding: 10px;
+    /* padding: 10px; */
+    padding-top: 10px;
     background-color: bisque;
     border-radius: 8px;
+    justify-content: center;
 }
 
 .box_acessórios {
@@ -250,32 +244,14 @@ p {
 .h2_animais {
     font-size: 2.5em;
     text-align: center;
-    padding-bottom: 10px;
-
 }
 
-.box_cachorro,
-.box_gato {
+.box_prods {
+    display: flex;
     background-color: aliceblue;
     border-radius: 12px;
 }
 
-.itens_acessórios {
-
-    display: flex;
-
-
-
-
-
-
-}
-
-
-.box_preco_a {
-    background-color: cadetblue;
-    border-radius: 15px;
-}
 
 @media (max-width: 768px) {
 
@@ -291,6 +267,14 @@ p {
     .links_cadastro {
         display: none;
     }
+}
+
+.servicos {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    background-color: #FFCFD2;
+    box-sizing: border-box;
 }
 
 footer {
