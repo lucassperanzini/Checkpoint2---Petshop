@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@700&family=Ysabeau:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -47,13 +49,20 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: black;
+    padding: 5px;
+    background-color: #FED766;
+    border-radius: 10px;
+}
+
 .links_cadastro {
 
     margin-left:auto
 }
 
 body{
-
+    font-family: 'Wix Madefor Text', sans-serif;
     background-color: #FED766;
 }
 
@@ -173,6 +182,11 @@ p{
     color: rgb(0, 0, 0);
 }
 
+.dog{
+    max-width: 500px;
+    
+    
+}
 .casa_cachorro,.casa_gato,.brinquedo,.coleira,.areia_gato{
 
     max-width: 350px;
@@ -180,6 +194,7 @@ p{
 
 .box_acessórios {
     display: flex;
+    width:100%;
     flex-direction: column;
     align-items: center;
     margin-top: 120px;
@@ -188,42 +203,68 @@ p{
 
 
 .box_cachorro{
+    background-color: aquamarine;
     margin-bottom: 100px;
     display: flex;
     
+    
 }
 
+/* .box_icone{
+
+    height:max-content;
+    width: max-content;
+    align-self: flex-end;
+    margin-bottom: 90px;
+    background-color: #009FB7;
+    
+    
+} */
+
 .box_gato{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     display:flex;
+    align-items: end;
+    
+    
    
 }
 
 .h2_animais{
     font-size: 2.5em;
-    text-align: center;
+    
 }
 
 .box_cachorro,.box_gato {
+    height: auto;
     background-color: aliceblue;
     border-radius: 12px;
 }
-.itens_acessórios {
+.item_acessórios {
 
     display: flex;
-
-
-
-
-
+    padding: 30px;
+    flex-direction: column;
+    margin-left: 80px;
+    
+  
 
 }
 
 
 .box_preco_a {
-    background-color: cadetblue;
+    background-color:rgba(134, 97, 17, 0.418);
     border-radius: 15px;
 }
+
+.box_preco_a:hover,
+.box_preco_a:hover p {
+    
+    background-color: #c92d18; /* Cor de fundo ao passar o mouse */
+    color: white; 
+    border-radius: 15px;/* Cor do texto ao passar o mouse */
+}
+
 
 @media (max-width: 768px) {
     /* Estilos para telas menores que 768px */
