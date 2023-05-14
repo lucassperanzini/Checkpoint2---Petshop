@@ -46,16 +46,15 @@ nav ul li a {
     padding: 10px 20px;
     display: inline-block;
     text-decoration: none;
-    font: 50px;
 }
 
-nav ul li a:hover {
-    background-color: white;
-    border-radius: 8px;
+.links_cadastro {
+
+    margin-left: auto
 }
 
 body {
-
+    font-family: 'Wix Madefor Text', sans-serif;
     background-color: #FED766;
 }
 
@@ -165,7 +164,19 @@ p {
     color: rgb(0, 0, 0);
 }
 
-.specImg {
+
+.specImg,
+.dog {
+    max-width: 500px;
+
+
+}
+
+.casa_cachorro,
+.casa_gato,
+.brinquedo,
+.coleira,
+.areia_gato {
     max-width: 350px;
     padding-top: 57px;
 }
@@ -213,6 +224,7 @@ p {
 
 .box_acessórios {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
@@ -228,12 +240,26 @@ p {
 .box_gato {
     margin-bottom: 100px;
     display: flex;
+}
+
+.box_cachorro {
+    background-color: aquamarine;
+    margin-bottom: 100px;
+    display: flex;
+
+
+}
+
+.box_gato {
+    margin-bottom: 150px;
+    display: flex;
+    align-items: end;
 
 }
 
 .h2_animais {
     font-size: 2.5em;
-    text-align: center;
+
 }
 
 .box_prods {
@@ -241,6 +267,41 @@ p {
     background-color: aliceblue;
     border-radius: 12px;
 }
+
+.box_cachorro,
+.box_gato {
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.item_acessórios {
+
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    margin-left: 80px;
+
+
+
+}
+
+
+.box_preco_a {
+    background-color: rgba(134, 97, 17, 0.418);
+    border-radius: 15px;
+}
+
+.box_preco_a:hover,
+.box_preco_a:hover p {
+
+    background-color: #c92d18;
+    /* Cor de fundo ao passar o mouse */
+    color: white;
+    border-radius: 15px;
+    /* Cor do texto ao passar o mouse */
+}
+
 
 @media (max-width: 768px) {
 
